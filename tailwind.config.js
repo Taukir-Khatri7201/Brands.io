@@ -17,6 +17,10 @@ module.exports = {
 				primary: "#3E4581",
 				"gradient-start": "#AE67FA",
 				"gradient-end": "#F49867",
+				rectangle: "#F8F8F8",
+				circle: "#ECEEFF",
+			},
+			backgroundColor: {
 				backgroud: "#FCFCFF",
 			},
 			gradientColorStopPositions: {
