@@ -15,16 +15,21 @@ module.exports = {
 			},
 			colors: {
 				primary: "#3E4581",
+				secondary: "#481177",
 				"gradient-start": "#AE67FA",
 				"gradient-end": "#F49867",
 				rectangle: "#F8F8F8",
 				circle: "#ECEEFF",
+				shadow: "#7D30DF",
 			},
 			backgroundColor: {
 				backgroud: "#FCFCFF",
 			},
 			gradientColorStopPositions: {
 				"97%": "97%",
+			},
+			fontSize: {
+				"sm-md": ["1.125rem", "1rem"],
 			},
 		},
 	},
