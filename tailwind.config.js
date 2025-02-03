@@ -21,6 +21,8 @@ module.exports = {
 				rectangle: "#F8F8F8",
 				circle: "#ECEEFF",
 				shadow: "#7D30DF",
+				bgprimary: "#F8F3FF",
+				bginput: "#1C1E32",
 			},
 			backgroundColor: {
 				backgroud: "#FCFCFF",
@@ -30,6 +32,7 @@ module.exports = {
 			},
 			fontSize: {
 				"sm-md": ["1.125rem", "1rem"],
+				"6xl-blh": ["3.75rem", "4.5rem"],
 			},
 		},
 	},
