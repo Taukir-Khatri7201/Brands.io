@@ -16,4 +16,38 @@
 	.gradient-text {
 		@apply text-transparent bg-clip-text;
 	}
+
+	.inclined-rectangle {
+		clip-path: polygon(0% 35%, 100% 0%, 100% 65%, 0% 100%);
+	}
+}
+
+:root {
+	--primary: 62, 69, 129;
+	--secondary: 72, 17, 119;
+	--gradient-start: 174, 103, 250;
+	--gradient-end: 244, 152, 103;
+	--rectangle: 248, 248, 255;
+	--circle: 236, 238, 255;
+	--shadow: 125, 48, 223;
+	--bgprimary: 248, 243, 255;
+	--bginput: 28, 30, 50;
+	--background: 252, 252, 255;
+	--app-white: 255, 255, 255;
+	--app-border: 229, 231, 235;
+	--text-secondary: 80, 80, 80;
+}
+
+.dark {
+	--primary: 170, 170, 230;
+	--secondary: 50, 10, 90;
+	--background: 15, 15, 35;
+	--circle: 45, 50, 100;
+	--shadow: 50, 20, 100;
+	--bgprimary: 45, 40, 65;
+	--app-white: 30, 30, 60;
+	--app-border: 55, 60, 75;
+	--bginput: 220, 222, 245;
+	--text-secondary: 173, 173, 173;
+	--rectangle: 10, 10, 40;
 }
