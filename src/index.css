@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-	.drag-none {
+	img {
 		-webkit-user-drag: none;
+		@apply select-none;
 	}
 }
 
@@ -41,13 +42,13 @@
 .dark {
 	--primary: 170, 170, 230;
 	--secondary: 50, 10, 90;
-	--background: 15, 15, 35;
+	--rectangle: 10, 10, 40;
 	--circle: 45, 50, 100;
 	--shadow: 50, 20, 100;
 	--bgprimary: 45, 40, 65;
+	--bginput: 28, 30, 50;
+	--background: 15, 15, 35;
 	--app-white: 30, 30, 60;
 	--app-border: 55, 60, 75;
-	--bginput: 220, 222, 245;
 	--text-secondary: 173, 173, 173;
-	--rectangle: 10, 10, 40;
 }

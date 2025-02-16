@@ -5,6 +5,13 @@ const plugin = require("tailwindcss/plugin");
 module.exports = {
 	content: ["./src/**/*.{html,js}"],
 	theme: {
+		screens: {
+			sm: "641px",
+			md: "769px",
+			lg: "1025px",
+			xl: "1281px",
+			"2xl": "1537px",
+		},
 		extend: {
 			fontFamily: {
 				gilroy: ["Gilroy-Regular", ...fontFamily.sans],
@@ -41,7 +48,11 @@ module.exports = {
 				"full-1.5x": "120%",
 				"full-2x": "200%",
 			},
+			scale: {
+				65: "0.65",
+			},
 		},
 	},
+	darkMode: ["selector", "body.dark"],
 	plugins: [],
 };
